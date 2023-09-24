@@ -44,10 +44,14 @@ Variablen definiert werden.
     <td>pinMode(3,OUTPUT);</td>
   </tr>
   <tr>
-    <td>Einen Pin auf "HIGH" bzw. "LOW" schalten</td>
+    <td>Einen Digital-Pin auf "HIGH" bzw. "LOW" schalten</td>
     <td>digitalWrite(PIN,HIGH/LOW);</td>
     <td>digitalWrite(3,HIGH);</td>
   </tr>
+  <tr>
+    <td>Einen Digital-Pin auslesen</td>
+    <td>digitalRead(PIN);</td>
+    <td>variable = digitalRead(3);</td>
   <tr>
     <td>Timeout / Delay</td>
     <td>delay(VERZÖGERUNG[ms]);</td>
