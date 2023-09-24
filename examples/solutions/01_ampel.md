@@ -7,7 +7,7 @@
 <h2>Programmcode</h2>
 
 ```
-//Ampel ESP32 - 2023-09-24
+//Ampel ESP32 (2023-09-24)
 
 int red = 21;
 int yellow = 4;
