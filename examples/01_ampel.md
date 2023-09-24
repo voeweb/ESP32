@@ -86,4 +86,4 @@ Bei unserer Ampel unterscheiden wir zwischen folgenden Ampelphasen:
   </tr>
 </table>
 <br>
-Zur Hilfe kannst du gerne folgende <a href="../Programmieren.md">Seite</a> benutzen.
+Zur Hilfe kannst du gerne folgende <a href="../Programmieren.md">Seite</a> benutzen. Für die Umsetzung gutes Gelingen!
