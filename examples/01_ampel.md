@@ -10,3 +10,38 @@ Für die Projektumsetzung brauchen wir folgende Komponenten:
   <li>LED gelb</li>
   <li>LED grün</li>
 </ol>
+
+Bei unserer Ampel unterscheiden wir zwischen folgenden Ampelphasen:
+
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Zeitstempel [ms]</th>
+    <th>Ampelphase</th>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>ROT</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>2000</td>
+    <td>ROT+GELB</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>3000</td>
+    <td>GRÜN</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>6000</td>
+    <td>GRÜN BLINKEN - AUS</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>6500</td>
+    <td>GRÜN BLINKEN - EIN</td>
+  </tr>
+</table>
