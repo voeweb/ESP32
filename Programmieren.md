@@ -53,7 +53,7 @@ Variablen definiert werden.
     <td>digitalRead(PIN);</td>
     <td>variable = digitalRead(3);</td>
   <tr>
-    <td>Timeout / Delay</td>
+    <td>Timeout / "Delay"</td>
     <td>delay(VERZÖGERUNG[ms]);</td>
     <td>delay(1000);</td>
   </tr>
@@ -76,3 +76,5 @@ int main(){
   }
 }
 ```
+Um diesen Code besser zu verstehen, probiere dich doch an folgendem Beispiel:
+<a href="">LINK</a>
