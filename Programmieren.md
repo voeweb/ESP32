@@ -8,12 +8,14 @@ Der grundsätzliche Codeaufbau sieht folgender Maßen aus:
 ```
 //globale Definitionen
 
-int main(){
+void setup(){
+}
+
+int loop(){
   //Statements
 }
 ```
-Das Hauptprogramm findet sich unter dem Abschnitt "**main()**" wieder. Darüber stehen sogenannte "**globale Definitonen**". In diesem Bereich können **globale**
-Variablen definiert werden. 
+Das Programm beginnt mit dem Abschnitt "**setup**". Hier werden Instruktionen eingefügt, die zu Beginn ausgeführt werden sollen. Nachdem der setup-Abschnitt abgearbeitet wurde, geht es hinein den "**loop**". Statements innerhalb des Loops werden in einer Endlosschleife wiederholt. Im oberen Bereich gibt es sogenannte "**globale Definitonen**". In diesem Bereich können **globale** Variablen definiert werden. 
 
 <h2>Basis-Befehle</h2>
 
@@ -66,14 +68,15 @@ Zur besseren Vorstellung ein kleines Code-Beispiel für ein einfaches Blinklicht
 //BLINKLICHT
 int pin = 12;
 
-int main(){
+void setup(){
   pinMode(pin,OUTPUT);
-  while(true){
-    digialWrite(pin,HIGH);
-    delay(1000);
-    digialWrite(pin,LOW);
-    delay(1000);
-  }
+}
+
+void loop(){
+  digialWrite(pin,HIGH);
+  delay(1000);
+  digialWrite(pin,LOW);
+  delay(1000);
 }
 ```
 Um diesen Code besser zu verstehen, probiere dich doch an folgendem Beispiel:
