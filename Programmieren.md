@@ -77,4 +77,4 @@ int main(){
 }
 ```
 Um diesen Code besser zu verstehen, probiere dich doch an folgendem Beispiel:
-<a href="">LINK</a>
+<a href="examples/01_ampel.md">LINK</a>
