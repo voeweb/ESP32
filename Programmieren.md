@@ -9,6 +9,7 @@ Der grundsätzliche Codeaufbau sieht folgender Maßen aus:
 //globale Definitionen
 
 void setup(){
+  //Statements
 }
 
 int loop(){
