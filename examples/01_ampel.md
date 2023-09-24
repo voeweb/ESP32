@@ -44,4 +44,46 @@ Bei unserer Ampel unterscheiden wir zwischen folgenden Ampelphasen:
     <td>6500</td>
     <td>GRÜN BLINKEN - EIN</td>
   </tr>
+  <tr>
+    <td>3</td>
+    <td>6000</td>
+    <td>GRÜN BLINKEN - AUS</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>6500</td>
+    <td>GRÜN BLINKEN - EIN</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>7000</td>
+    <td>GRÜN BLINKEN - AUS</td>
+  </tr>
+  <tr>
+    <td>6</td>
+    <td>7500</td>
+    <td>GRÜN BLINKEN - EIN</td>
+  </tr>
+  <tr>
+    <td>7</td>
+    <td>8000</td>
+    <td>GRÜN BLINKEN - AUS</td>
+  </tr>
+  <tr>
+    <td>8</td>
+    <td>8500</td>
+    <td>GRÜN BLINKEN - EIN</td>
+  </tr>
+  <tr>
+    <td>9</td>
+    <td>9000</td>
+    <td>GELB</td>
+  </tr>
+  <tr>
+    <td>10</td>
+    <td>10000</td>
+    <td>ROT</td>
+  </tr>
 </table>
+<br>
+Zur Hilfe kannst du gerne folgende <a href="./Programming.md">Seite</a>benutzen.
