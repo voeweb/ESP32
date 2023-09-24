@@ -60,6 +60,22 @@ Das Programm beginnt mit dem Abschnitt "**setup**". Hier werden Instruktionen ei
     <td>delay(VERZÖGERUNG[ms]);</td>
     <td>delay(1000);</td>
   </tr>
+  <tr>
+    <td>Einzeiliges Kommentar</td>
+    <td>//KOMMENTAR</td>
+    <td>//Pin schalten</td>
+  </tr>
+  <tr>
+    <td>Mehrzeiliges Kommentar</td>
+    <td>
+      /* KOMM- <br>
+         ENTAR */
+    </td>
+    <td>
+      /* Blinklicht <br>
+         Ver.1.00   */
+    </td>
+  </tr>
 </table>
 
 <h2>Beispielcode</h2>
